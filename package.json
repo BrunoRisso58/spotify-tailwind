@@ -1,0 +1,23 @@
+{
+  "name": "7---spotify-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoRisso58/spotify-tailwind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoRisso58/spotify-tailwind/issues"
+  },
+  "homepage": "https://github.com/BrunoRisso58/spotify-tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
